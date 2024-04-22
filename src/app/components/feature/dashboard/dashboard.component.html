@@ -3,7 +3,7 @@
 <app-collapsible
   header="Dashboard Show / Hide"
   width="w-3/12"
-  [toggleInfo]="toggleInfo"
+  [toggleInfo]="toggleInfo$ | async"
   (toggle)="toggle()"
 >
   Dashboard Content
