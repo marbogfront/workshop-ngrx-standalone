@@ -9,7 +9,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class CollapsibleComponent {
   @Input() header: string = '';
-  @Input() toggleInfo: boolean = false;
+  @Input() toggleInfo: boolean | null = false;
   @Input() width: string = '';
   @Output() toggle: EventEmitter<void> = new EventEmitter<void>();
 }
