@@ -1,0 +1,19 @@
+.header {
+  @apply flex items-center bg-slate-600 p-3;
+}
+
+.logo {
+  @apply text-2xl text-pink-500 font-bold pr-8;
+}
+
+.menu {
+  @apply flex text-white;
+}
+
+.link {
+  @apply pr-5 hover:underline text-sm;
+}
+
+.active {
+  @apply text-slate-400;
+}
