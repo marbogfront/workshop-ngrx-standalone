@@ -3,7 +3,7 @@
 <app-collapsible
   header="Toggle"
   width="w-4/12"
-  [toggleInfo]="toggleInfo"
+  [toggleInfo]="toggleInfo$ | async"
   (toggle)="toggle()"
 >
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita saepe vitae doloremque esse
